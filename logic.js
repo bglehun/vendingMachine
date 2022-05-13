@@ -79,8 +79,11 @@ exports.choiceBeverage = (paymentType, choicedName, totalCoin = REMAIN_BALANCE) 
     default:
       throw new Error('지원하지 않는 지불 방식입니다.');
   }
+  
+  /** 거스름돈 계산 */
   change = (totalCoin -= price);
 
+  /** 수량 차감 */
   decreamentAmount(choicedName);
   
   return { ...choicedBeverage, change };
