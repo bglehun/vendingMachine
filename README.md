@@ -4,4 +4,4 @@
 
 <플로우차트>
 
-![Uploading 자판기.png…]()
+<img width="486" alt="자판기" src="https://user-images.githubusercontent.com/96781806/168201086-3aa4623d-2fcd-4600-b412-17447222bc09.png">
